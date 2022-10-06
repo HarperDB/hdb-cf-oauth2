@@ -1,0 +1,13 @@
+{
+	"client": {
+		"id": "1234",
+		"secret": "12234"
+	},
+	"provider": "GITHUB_CONFIGURATION",
+	"loginPath": "/login/github",
+	"callback": "http://localhost:9926/oauth/callback",
+	"schema": "hdb_auth",
+	"table": "sessions",
+	"salt_rounds": 5,
+	"logout": "/logout"
+}
